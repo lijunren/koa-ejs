@@ -1,0 +1,56 @@
+*{margin: 0;padding: 0;}
+body{
+    background: rgb(244,243,244);
+}
+.main{
+    min-width: 1200px;
+    background: #fff;
+}
+.list_box{
+    padding: 15px 20px;
+    border-top: 1px solid rgb(236,239,245);
+}
+.title{
+    color: rgb(49,49,49);
+    cursor: pointer;
+}
+.title:hover{
+    color: rgb(20,61,135);
+}
+.content{
+    margin-top: 5px;
+}
+.content p{
+    cursor: pointer;
+}
+.content p span{
+    color: rgb(20,61,135);
+}
+.content p:hover{
+    color: rgb(81,81,81);
+}
+.content p span:hover{
+    color: rgb(81,81,81);
+}
+.otherContent{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+.blueBlock{
+    width: 70px;
+    text-align: center;
+    height: 35px;
+    line-height: 35px;
+    background-color: rgb(227,240,255);
+    color: rgb(14,170,255);
+    border-radius: 5px;
+    margin-right: 5px;
+}
+.greyBlock:first-child{
+    margin-left: 15px;
+}
+.greyBlock{
+    margin-right: 20px;
+    color: rgb(114,125,149);
+}

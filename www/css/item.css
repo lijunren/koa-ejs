@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.box{
+    min-width: 1200px;
+    padding: 10px 20px;
+}
+.topics_content{
+    display: flex;
+}
+.topics_content p{
+    margin-right: 10px;
+    padding: 0 5px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    background-color: aqua;
+    color: #fff;
+    border-radius: 5px;
+}
